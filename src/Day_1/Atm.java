@@ -16,7 +16,7 @@ public class Atm {
                 System.out.println("logined successfully");
                 System.out.println("Enter the pin:");
                 int pin = scanner.nextInt();
-                if(Originalpin.length() == 4 && pin == Originalpin){
+                if(pin == Originalpin){
                     System.out.println("pin is correct");
                     System.out.println("Enter the amount:");
                     BigDecimal amount = scanner.nextBigDecimal();
